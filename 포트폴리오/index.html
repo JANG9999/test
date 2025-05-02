@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>한국생명공학연구원</title>
+    <!-- swiper cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reset.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <!-- 파비콘 -->
+    <link rel="icon" href="images/pbc.png">
+</head>
+<body>
+  <header class="header">
+    <div class="header_wrap">
+      <div class="info">
+        <a href="#none">KRIBB INFRA</a>
+        <a href="#none">Virtual Lab</a>
+        <a href="#none">ENGLISH</a>
+      </div>
+      <div class="logo">
+        <a href="#none">
+          <img src="images/logo.png" alt="">
+        </a>
+        <a href="#none">
+          <img src="images/black_logo.png" alt="">
+        </a>
+      </div>
+      <nav class="main_menu">
+        <ul>
+          <li><a class="menu_item" href="#none" data-target="intro">KRIBB 소개</a></li>
+          <li><a class="menu_item" href="#none" data-target="news">KRIBB 소식</a></li>
+          <li><a class="menu_item" href="#none" data-target="lab">연구공간</a></li>
+          <li><a class="menu_item" href="#none" data-target="notic">알림공간</a></li>
+          <li><a class="menu_item" href="#none" data-target="service">고객서비스</a></li>
+        </ul>
+      </nav>
+      <div class="accordion_search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="accordion_search_input">
+        <input type="text" placeholder="검색어를 입력하세요">
+      </div>
+      <div class="sub_wrap">
+        <div class="sub_menu" id="intro">
+          <div class="submenu_content">
+            <div>
+              <h2>KRIBB 소개</h2>
+            </div>
+            <div>
+              <h3>소개</h3>
+              <ul>
+                <li><a href="#none">원장 인사말</a></li>
+                <li><a href="#none">연구원 소개</a></li>
+                <li><a href="#none">비전</a></li>
+                <li><a href="#none">인재상</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>기관 구성 및 연구</h3>
+              <ul>
+                <li><a href="#none">조직 및 연구부서</a></li>
+                <li><a href="#none">UST</a></li>
+                <li><a href="#none">Proud KRIBBian</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>커뮤니티 및 연대</h3>
+              <ul>
+                <li><a href="#none">동문회 소개</a></li>
+                <li><a href="#none">윤리경영</a></li>
+                <li><a href="#none">오시는 길</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sub_menu" id="news">
+          <div class="submenu_content">
+            <div>
+              <h2>KRIBB 소식</h2>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">KRIBB NEWS</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">보도자료</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">언론에 비친 KRIBB</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">KRIBB 뉴스레터</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">KRIBB 간행물</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sub_menu" id="lab">
+          <div class="submenu_content">
+            <div>
+              <h2>연구공간</h2>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">연구성과</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">코로나 19 A to Z</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">학술행사</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sub_menu" id="notic">
+          <div class="submenu_content">
+            <div>
+              <h2>알림공간</h2>
+            </div>
+            <div>
+              <h3>공지사항</h3>
+              <ul>
+                <li><a href="#none">채용공고</a></li>
+                <li><a href="#none">입찰공고</a></li>
+                <li><a href="#none">안내사항</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>정보공개</h3>
+              <ul>
+                <li><a href="#none">사전정보공개</a></li>
+                <li><a href="#none">정보목록</a></li>
+                <li><a href="#none">공공데이터</a></li>
+                <li><a href="#none">정보공개청구</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>경영 및 관리</h3>
+              <ul>
+                <li><a href="#none">경영공시</a></li>
+                <li><a href="#none">발전기금</a></li>
+                <li><a href="#none">업체실명제</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sub_menu" id="service">
+          <div class="submenu_content">
+            <div>
+              <h2>고객 서비스</h2>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">과학나눔</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">FAQ</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">Q&A</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">고객소비스현장</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="#none">KRIBB INFRA</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="search_box sub_menu" id="search">
+          <div class="searchbox_inner">
+            <div class="input_after">
+              <input type="text" placeholder="검색어를 입력하세요">
+            </div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <div class="search menu_item" data-target="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <span class="toggle">
+        <i class="fa-solid fa-bars"></i>
+      </span>
+    </div>
+  </header>
+  <main class="page">
+    <div class="back_color"></div>
+    <div class="main_visual">
+      <i class="sub_visual"></i>
+    </div>
+    <div class="main_text">
+      <h1 class="title"  data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="3000">Technology for Life, Our Future</h1>
+      <p class="disc"  data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom" data-aos-duration="3000">생명을 향한 연구, 내일을 여는 기술</p>
+    </div>
+  </main>
+  <div class="acorrdion" id="accordion">
+    <div class="accordion_item search_toggle">
+      <div class="accordion_info">
+        <a href="#none">KRIBB INFRA</a>
+        <a href="#none">Virtual Lab</a>
+        <a href="#none">ENGLISH</a>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">KRIBB 소개</div>
+      <div class="accordion_content">
+        <h3 class="ac_subtitle ft_icon">소개</h3>
+        <ul class="ac_subcontent">
+          <li><a href="#none">원장 인사말</a></li>
+          <li><a href="#none">연구원 소개</a></li>
+          <li><a href="#none">비전</a></li>
+          <li><a href="#none">인재상</a></li>
+        </ul>
+        <h3 class="ac_subtitle ft_icon">기관 구성 및 연대</h3>
+        <ul class="ac_subcontent">
+          <li><a href="#none">조직 및 연구부서서</a></li>
+          <li><a href="#none">UST</a></li>
+          <li><a href="#none">Proud KRIBBian</a></li>
+        </ul>
+        <h3 class="ac_subtitle ft_icon">커뮤니티 및 연대대</h3>
+        <ul class="ac_subcontent">
+          <li><a href="#none">동문회 소개</a></li>
+          <li><a href="#none">윤리경영영</a></li>
+          <li><a href="#none">오시는 길</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">KRIBB 소식</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">KRIBB NEWS</a></li>
+          <li><a href="#none">보도자료</a></li>
+          <li><a href="#none">언론에 비친 KRIBB</a></li>
+          <li><a href="#none">KRIBB 뉴스레터</a></li>
+          <li><a href="#none">KRIBB 간행물</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">연구공간</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">연구성과</a></li>
+          <li><a href="#none">코로나 19 A to Z</a></li>
+          <li><a href="#none">학술행사사</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">알림공간</div>
+      <div class="accordion_content">
+        <h3 class="ac_subtitle ft_icon">공지사항</h3>
+        <ul class="ac_subcontent">
+          <li><a href="#none">채용공고</a></li>
+          <li><a href="#none">입찰공고</a></li>
+          <li><a href="#none">안내사항</a></li>
+        </ul>
+        <h3 class="ac_subtitle ft_icon">정보공개</h3>
+        <ul class="ac_subcontent">
+          <li><a href="#none">사전정보공개</a></li>
+          <li><a href="#none">정보등록</a></li>
+          <li><a href="#none">공공데이터</a></li>
+          <li><a href="#none">정보공개청구</a></li>
+        </ul>
+        <h3 class="ac_subtitle ft_icon">경영 및 관리</h3>
+        <ul class="ac_subcontent">
+          <li><a href="#none">경영공시</a></li>
+          <li><a href="#none">발전기금</a></li>
+          <li><a href="#none">업체실명제</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="accordion_item">
+      <div class="accordion_title">고객서비스</div>
+      <div class="accordion_content">
+        <ul>
+          <li><a href="#none">과학나눔</a></li>
+          <li><a href="#none">FAQ</a></li>
+          <li><a href="#none">Q&A</a></li>
+          <li><a href="#none">고객서비스현장</a></li>
+          <li><a href="#none">KRIBB INTRA</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- section01 -->
+  <section class="news_inner page">
+    <div class="news_wrapper">
+      <div class="swiper news_swiper">
+        <div class="news_info">
+          <h1 class="title">KRIBB NEWS</h1>
+          <div class="swiper-pagination">
+            <span id="current">1</span> / <span id="total">7</span>
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/news01.png" alt="">
+            <div class="slide_title">2025년 4월 이달의 KRIBB人 김다정 박사</div>
+            <div class="slide_text">
+              2025년 4월 이달의 KRIBB人으로 감염병연구센터 김다정 박사가 선정되었습니다. 김다정 박사 소속 연구팀은 지질나노입자를 활용해 신규 항생제를 개발하였으며, 이는 바이오 분야의 세계적인 국제 학술지인 Advanced Healthcare Materials에 25년 3월 논문 게재되었고 표지 논문으로 선정되었습니다.* 논문명 : Lipid Nanoparticle-Mediated CRISPR-Cas13a Delivery for the Control of Bacterial Infection
+            </div>
+            <div class="slide_date">2025-04-23</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/news02.png" alt="">
+            <div class="slide_title">2025년 3월 이달의 KRIBB人 김진영 선임연구기사</div>
+            <div class="slide_text">
+              2025년 3월 이달의 KRIBB人으로 국가전임상시험지원센터 김진영 선임연구기사가 선정되었습니다. 김진영 연구원은 세계 최초로 항생제 내성균을 표적으로 하는 시데로포어(siderophore) 기능화 나노약물 개발하였으며, 동 성과는 나노과학 분야의 세계적인 저널인 ACS Nano에 25년 2월 논문 게재되었습니다.
+            </div>
+            <div class="slide_date">2025-03-26</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/news03.png" alt="">
+            <div class="slide_title">생명연, 15대 권석윤 신임 원장 취임식 개최</div>
+            <div class="slide_text">
+              한국생명공학연구원(이하 생명연)은 17일(월) 오전 10시 대전 본원 대강당에서 15대 권석윤 원장 취임식을 개최하였습니다. 이날 권석윤 신임 원장은 취임사에서 “급변하는 글로벌 바이오 환경 속에서 우리의 역할을 재정립하고, 더욱 도전적인 혁신을 이뤄야 할 시점에 와 있다”라고 강조하였으며, 이를 위한 기관 중점 전략으로 “TOP”이라는 슬로건을 발표하였습니다.
+            </div>
+            <div class="slide_date">2025-03-17</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/news04.png" alt="">
+            <div class="slide_title">플라스틱 환경지킴이’가 될 꿀벌부채명나방</div>
+            <div class="slide_text">
+              플라스틱은 인류의 대표적인 발명품이지만 동시에 심각한 환경오염의 원인이 되고 있다. 최근 전 세계는 플라스틱 오염 종식 국제협약  체결을 위해 총 5차례나 협상위원회를 열었지만 플라스틱 생산규제 합의에는 이르지 못했다. 하지만 이는 전 세계가 얼마나 플라스틱 오염 방지를 위해 노력하는지 보여주는 단적인 예다.
+            </div>
+            <div class="slide_date">2024-12-26</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/news05.png" alt="">
+            <div class="slide_title">국가과학기술연구회 김영식 이사장 방문</div>
+            <div class="slide_text">
+              지난 17일, 국가과학기술연구회 김영식 이사장님께서 한국생명공학연구원(원장 김장성)에 방문하여 간담회를 가졌습니다. 간담회는 한국한국생명공학연구원의 업무보고를 시작으로 현안사항에 대해 논의를 하였으며, 신진 연구자들도 참여하여 직접 소통하고 격려하는 시간을 가졌습니다.
+            </div>
+            <div class="slide_date">2024-12-18</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/news06.png" alt="">
+            <div class="slide_title">유전자가위 기반 고감도 암 진단 플랫폼 개발</div>
+            <div class="slide_text">
+              한국생명공학연구원(원장 김장성, 이하 생명연) 바이오나노연구센터 강태준 박사 연구팀은 매사추세츠 종합병원(Massachusetts General Hospital, MGH), 하버드 의과대학(Harvard Medical School, HMS), 성균관대학교와 함께 체액에 존재하는 바이오마커 검출 성능을 획기적으로 향상한 진단 플랫폼 SCOPE(Self-amplified and CRISPR-aided Operation to Profile Extracellular Vesicles)를 개발하였다고 밝혔다.
+            </div>
+            <div class="slide_date">2024-11-05</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="custom_navigation">
+      <div class="prev_wrap_news">
+        <i class="fa-solid fa-chevron-left"></i>
+      </div>
+      <div class="next_wrap_news">
+        <i class="fa-solid fa-chevron-right"></i>
+      </div>
+    </div>
+  </section>
+  <!-- section02 -->
+  <section class="notic_inner page">
+    <h1 class="title">KRIBB NOTIC</h1>
+    <nav class="notic_wrap">
+      <ul class="notic_card">
+        <li>
+          <h2 class="li_title">안내사항</h2>
+          <div class="btn_more">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="li_card">
+            <div class="card_wrap">
+              <div class="card_title">
+                <a class="content_title" href="#none">안내사항</a>
+                <a class="btn" href="#none">
+                  <i class="fa-solid fa-plus"></i>
+                </a>
+              </div>
+              <div class="inner_card">
+                <div class="card">
+                  <h3>2025년도 국가 R&D 제도개선 온라인 의련수렴 홍보</h3>
+                  <p>
+                    관련: (과학기술정보통신부 연구제도혁신과-553) '2025년도 국가연구개 행정제도개선 기본지침 통보 및 제도개선 의견제출 요청'현재 한국과학기술기획평가원은 과학기술정보통신부와 함께 국가연구개발혁신법에 근거하여‘2025년 국가연구개발 행정제도개선’을 추진하고 있습니다.
+                  </p>
+                  <div class="date">2025-04-21</div>
+                </div>
+                <div class="card">
+                  <h3>[국립중앙과학관] 2025 TechConE(테크콘E) 행사 개최 안내(4.26~27)</h3>
+                  <p>
+                    국립중앙과학관(대전광역시 유성구 위치)은 국내 로봇 산업을 선도하는 최고 기업과 연구기관의 최첨단 기술 시연·강연과 함께,첨단 과학기술과 문화예술이 융합한 다양한 프로그램으로 색다른 가치와 감동, 창조적인 감성을 자극하는2025 TechConE』행사를 다음과 같이 준비하였으니, 많은 분들의 관심과 참여 바랍니다.
+                  </p>
+                  <div class="date">2025-04-21</div>
+                </div>
+                <div class="card">
+                  <h3>[STEPI] 제463회 과학기술정책포럼 개최 안내(4.17)</h3>
+                  <p>
+                    과학기술정책연구원에서는 국립창원대학교, 창원시정연구원과 함께 제463회 과학기술정책포럼을 아래와 같이 공동개최하오니 많은 참석 부탁드립니다.
+                  </p>
+                  <div class="date">2025-04-14</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <h2 class="li_title">채용공고</h2>
+          <div class="btn_more">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="li_card">
+            <div class="card_wrap">
+              <div class="card_title">
+                <a class="content_title" href="#none">채용공고</a>
+                <a class="btn" href="#none">
+                  <i class="fa-solid fa-plus"></i>
+                </a>
+              </div>
+              <div class="inner_card">
+                <div class="card">
+                  <h3>연수직 2025-2차 인턴연구원 채용 공고</h3>
+                  <p>
+                    접수기한 : 2025-04-09(수) ~ 2025-04-24(목) 18:00 <br>
+모집분야 및 자격 : 합성생물학 / 바이오파운드리 | 전공 : 생명공학, 생명과학, 관련 바이오 분야 | 모집인원 : 3명...
+                  </p>
+                  <div class="date">2025-04-08</div>
+                </div>
+                <div class="card">
+                  <h3>연수직 2025-2차 석사후연구원 채용 공고)</h3>
+                  <p>
+                    접수기한 : 2025-04-09(수) ~ 2025-04-24(목) 18:00 <br>
+                    모집분야 및 자격 : 합성생물학 / 바이오파운드리 | 전공 : 생명공학, 생명과학, 화학공학 등 | 모집인원 : 1명...
+                  </p>
+                  <div class="date">2025-04-08</div>
+                </div>
+                <div class="card">
+                  <h3>계약직 2025-3차 계약직(연구원/기술원/시무원) 채용 공고</h3>
+                  <p>
+                    접수기한 : 2025-03-20 ~ 2025-04-04 <br>
+                    모집대상 개요 : 연구실 안전황경 구축 (계약식 연구원) 1명 , AI기반 분석 및 활용 플랫폼 구죽 (계약직 연구원)...
+                  </p>
+                  <div class="date">2025-03-21</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <h2 class="li_title">입찰공고</h2>
+          <div class="btn_more">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="li_card">
+            <div class="card_wrap">
+              <div class="card_title">
+                <a class="content_title" href="#none">입찰공고</a>
+                <a class="btn" href="#none">
+                  <i class="fa-solid fa-plus"></i>
+                </a>
+              </div>
+              <div class="inner_card">
+                <div class="card">
+                  <h3>단백질 정제 크로마토그래피시스템</h3>
+                  <p>
+                    입찰에 대한 정보는 국가종합전자조달시스템(나라장터)에서 해당공고명을 검색하시어 확인하시기 바랍니다.
+                  </p>
+                  <div class="date">2025-04-16</div>
+                </div>
+                <div class="card">
+                  <h3>120kV Bio Transmission Electron Microscope (120kV 바이오 투과전자현미경)</h3>
+                  <p>
+                    입찰에 대한 정보는 국가종합전자조달시스템(나라장터)에서 해당공고명을 검색하시어 확인하시기 바랍니다.
+                  </p>
+                  <div class="date">2025-04-07</div>
+                </div>
+                <div class="card">
+                  <h3>마우스용 개별환기 사육장비 시스템</h3>
+                  <p>
+                    입찰에 대한 정보는 국가종합전자조달시스템(나라장터)에서 해당공고명을 검색하시어 확인하시기 바랍니다.
+                  </p>
+                  <div class="date">2025-04-01</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </section>
+  <!-- section03 -->
+  <section class="archieve_inner page">
+    <div class="swiper archieve_swiper">
+      <div class="archieve_info">
+        <h1 class="title">KRIBB ARCHIEVE</h1>
+        <div class="swiper-pagination">
+          <span id="current_ar">1</span> / <span id="total_ar">7</span>
+        </div>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="text_area">
+            <h2>크리스퍼 유전자가위의 한계를 넘은 고효율 다중 유전체 편집 기술 개발</h2>
+            <p>
+              크리스퍼(CRISPR) 유전자가위 기술은 특정 유전자만 정확하게 골라내어 편집할 수 있는 높은 정밀도를 가지고 있어 생명공학 분야의 혁신적인 기술로 주목받고 있다. 크리스퍼 기반 유전자 편집 기술을 이용해 여러 유전자를 동시에 편집할 경우 카스(Cas) 단백질이 해당 유전자들에게 도달하도록 가이드 역할을 하는 sgRNA(single-guide RNA)를 편집하고자 하는 유전자 개수만큼 반복해서 배열해야 한다. 그러나 해당 sgRNA들의 서열이 매우 유사하여 반복적으로 배열할 경우 DNA 합성 실패, 플라스미드 불안정성, 재조합 오류 등이 빈번하게 발생하는 한계점을 갖고 있다.
+            </p>
+            <div class="more">
+              자세히 보기
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+          <img src="images/archieve01.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="text_area">
+            <h2>바이오와 나노가 융합하여 슈퍼박테리아 문제 해결하다 </h2>
+            <p>
+              최근 내성 발현 속도가 더욱 빨라진 슈퍼박테리아의 급증은 기존 항생제 치료법의 한계를 명확하게 보여주고 있으며, 세계보건기구(WHO)는 이런 슈퍼박테리아가 차세대 팬데믹이 될 것으로 경고하고 있어 새로운 항균 치료법의 개발이 시급한 상황이다. 한국생명공학연구원(원장 권석윤, 이하 생명연) 감염병연구센터 류충민 박사 연구팀은 바이오나노 기술을 이용하여 슈퍼박테리아를 효과적으로 제어할 수 있는 금나노입자와 지질나노입자 기반의 신규 항생제를 개발하여 기존 항생제의 한계를 극복할 수 있는 슈퍼박테리아 치료의 새로운 가능성을 제시할 것으로 기대되고 있다.
+            </p>
+            <div class="more">
+              자세히 보기
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+          <img src="images/archieve02.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="text_area">
+            <h2>탄소중립을 앞당길 광합성 미생물 크리스퍼 기술 개발</h2>
+            <p>
+              흔히 미세조류로 알려져 있는 광합성 미생물은 기후 변화의 주범인 이산화탄소를 빠르게 흡수하는 동시에 다양한 유용 물질을 생산할 수 있어 탄소 감축 기술의 핵심 플랫폼이자 지속 가능한 차세대 생물자원으로서 주목받고 있다. 최근 전 세계의 기후 변화 현상은 갈수록 심화되고 있어 생태계에서 탄소 포집과 기후 완화에 중요한 역할을 하고 있는 광합성 미생물(미세조류)을 활용한 기술 개발이 더욱 필요한 상황이다.
+            </p>
+            <div class="more">
+              자세히 보기
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+          <img src="images/archieve03.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="text_area">
+            <h2>발암성 단백질 발현을 조절하는 새로운 네트워크 규명</h2>
+            <p>
+              암 변이 유전자 중 최초로 발견된 KRAS(케이라스) 단백질은 췌장암, 폐암, 대장암 등 고형암의 주요 유발인자로 잘 알려져 있다. 지난 40년간 KRAS를 표적으로 한 항암제 개발이 진행되어 왔으나, 현재까지 만족할 만한 연구결과를 얻지 못하고 있다. 한국생명공학연구원(원장 김장성, 이하 생명연) 유전체맞춤의학연구센터 이동철 박사 연구팀과 충남대학교 염영일 박사 연구팀은 KRAS의 안정성을 높여 발암성을 지속적으로 유지시키는 네트워크를 발견하고, 이를 통해 암 성장 과정을 제어할 수 있는 기술을 개발했다고 밝혔다.
+            </p>
+            <div class="more">
+              자세히 보기
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+          <img src="images/archieve04.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="text_area">
+            <h2>유해 미세조류 독성 억제의 새로운 해법, 박테리아와의 상호작용 활용 기술 개발</h2>
+            <p>
+              미세조류는 현미경으로 관찰이 가능한 단세포성 생물로서 담수 및 해양생태계에서 산소를 발생시키고 유기물을 생산하는 등 중요한 역할을 하지만 모든 미세조류가 환경에 이로운 것은 아니다. 대표적인 유해 미세조류 중 하나인 알렉산드리움 퍼시피컴(Alexandrium pacificum, 이하 퍼시피컴)은 수산물에 축적될 수 있는 신경 독소(이하 패독)를 생성하여 사람이 섭취할 경우 중추신경계에 치명적이며, 해양생태계에도 악영향을 미쳐 수산물 안전성에 심각한 위협이 되고 있다.
+            </p>
+            <div class="more">
+              자세히 보기
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+          <img src="images/archieve05.png" alt="">
+        </div>
+        <div class="swiper-slide">
+          <div class="text_area">
+            <h2>인간 유전체 진화의 열쇠, 한국인 DNA에서 찾다</h2>
+            <p>
+              인간 DNA 해독 기술은 긴 DNA 서열을 한 번에 읽어낼 수 있는 기술인 롱리드 시퀀싱(Long-read Sequencing)의 발전으로 미지의 영역으로 알려진 인간 유전체의 약 8%에 해당하는 복잡한 영역까지 해독하게 되었다. 그러나 여전히 해독 연구는 부족하며, 특히 한국인 고유의 구조 변이를 체계적으로 분석하는 연구는 거의 이루어지지 않고 있다.
+            </p>
+            <div class="more">
+              자세히 보기
+              <div class="arrow">
+              </div>
+            </div>
+          </div>
+          <img src="images/archieve06.png" alt="">
+        </div>
+      </div>
+    </div>
+      <div class="custom_navigation03">
+    <div class="prev_wrap_ar">
+      <div class="prev"></div>
+    </div>
+    <div class="next_wrap_ar">
+      <div class="next"></div>
+    </div>
+  </div>
+  </section>
+  <!-- section04 -->
+  <section class="coverage_inner page">
+    <h1 class="title">KRIBB COVERAGE</h1>
+    <div class="coverage_card">
+      <div class="coverage_img">
+        <img src="images/coverage01.png" alt="">
+      </div>
+      <div class="coverage_text">
+        <div class="text_wrap">
+          <h3>“특정 병원균만 선택적 사멸” 획기적 효능... 슈퍼 박테리아 잡는 ‘항생제’ 나온다</h3>
+          <p>
+            한국생명공학연구원 감염병연구센터 류충민 박사 연구팀은 바이오나노 기술을 이용하여 슈퍼박테리아를 효과적으로 제어할 수 있는 금나노입자와 지질나노입자 기반의 신규 항생제를 개발했다.이번 연구성과는 인체의 유익한 균에는 영향을 주지 않고 특정한 병원균만을 선택적으로 사멸시킬 수 있어 항생제 내성 문제를 극복하면서 슈퍼박테리아를 정밀하게 타겟하여 제어할 수 있는 신개념 치료 기술이다.
+          </p>
+        </div>
+        <div class="coverage_btn">
+          <div class="circle">
+            <div class="arrow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="coverage_card">
+      <div class="coverage_img">
+        <img src="images/coverage02.png" alt="">
+      </div>
+      <div class="coverage_text">
+        <div class="text_wrap">
+          <h3>'최대 15배' AI가 바꾼 단백질 설계 성공률···신약 개발 현주소·미래?</h3>
+          <p>
+            작년 노벨 화학상은 인공지능(AI)이 휩쓸었다. 새로운 종류의 단백질을 만드는 방법을 제시한 미국 생화학자 데이비드 베이커와 단백질 구조를 예측하는 AI 모델 '알파폴드'를 개발한 구글의 AI 기업 딥마인드의 데미스 허사비스, 존 점퍼가 수상하면서 AI기반 단백질 디자인 분야에 관심이 커지고 있다.
+          </p>
+        </div>
+        <div class="coverage_btn">
+          <div class="circle">
+            <div class="arrow">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="coverage_card">
+      <div class="coverage_img">
+        <img src="images/coverage03.png" alt="">
+      </div>
+      <div class="coverage_text">
+        <div class="text_wrap">
+          <h3>“韓, 유전자변형생물체 수입량 6.2%↑”…옥수수 987만톤 최다</h3>
+          <p>
+            한국생명공학연구원 바이오안전성정보센터는 2일 ‘2024년 유전자변형생물체 주요 통계’ 자료를 발표했다. 2024년 국내로 반입된 식품용·사료용 유전자변형생물체는 총 1092만 톤(약 30억 달러)에 달했다.이는 전년 1028만 톤(34.2억 달러) 대비 약 6.2%(64만 톤) 증가한 것으로 연구팀은 동유럽 전쟁 여파...
+          </p>
+        </div>
+        <div class="coverage_btn">
+          <div class="circle">
+            <div class="arrow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section05 -->
+  <section class="service_inner page">
+    <h1 class="title">KRIBB SERVICE</h1>
+    <div class="quick_menu">
+      <h3>Quic menu</h3>
+      <div class="quick_inner">
+        <div class="quick_box_inner">
+          <div class="quick_box" id="quick1">
+            <div class="quick_circle">
+              <img src="images/icon1.png" alt="">
+              <p>보도자료</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon2.png" alt="">
+              <p>우수 연구성과</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon3.png" alt="">
+              <p>간행물</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon4.png" alt="">
+              <p>연구부서 및 직원검색</p>
+            </div>
+          </div>
+          <div class="quick_box" id="quick2">
+            <div class="quick_circle">
+              <img src="images/icon5.png" alt="">
+              <p>연우회</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon6.png" alt="">
+              <p>견학신청</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon7.png" alt="">
+              <p>증명서 발급</p>
+            </div>
+          </div>
+          <div class="quick_box" id="quick3">
+            <div class="quick_circle">
+              <img src="images/icon8.png" alt="">
+              <p>중소기업지원</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon9.png" alt="">
+              <p>도서관</p>
+            </div>
+            <div class="quick_circle">
+              <img src="images/icon10.png" alt="">
+              <p>장비공동활용</p>
+            </div>
+          </div>
+        </div>
+        <div class="tab">
+          <a href="#quick1">연구</a>
+          <a href="#quick2">기업</a>
+          <a href="#quick3">일반</a>
+        </div>
+      </div>
+    </div>
+    <div class="service_under">
+      <div class="sns">
+        <h3>SNS</h3>
+        <div class="sns_under">
+          <div class="swiper sns_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="images/sns1.png" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="images/sns02.png" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="images/sns03.png" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#none">
+                  <img src="images/sns04.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="custom_navigation04">
+        <div class="prev_wrap_sns snav_wrap">
+          <i class="fa-solid fa-chevron-left sprev"></i>
+        </div>
+        <div class="next_wrap_sns snav_wrap">
+          <i class="fa-solid fa-chevron-right snext"></i>
+        </div>
+      </div>
+      <div class="sns_box_wrap">
+        <div class="sns_box">
+          <i class="fa-brands fa-youtube"></i>
+          <p>유튜브</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="sns_box">
+          <i class="fa-brands fa-instagram"></i>
+          <p>인스타그램</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="sns_box">
+          <i class="fa-brands fa-facebook-f"></i>
+          <p>페이스북</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="sns_box">
+          <img src="images/blog.png" alt="">
+          <p>네이버블로그</p>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="pop">
+        <h3>POP-UP</h3>
+        <div class="swiper pop_swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="images/pop1.png" alt="">
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#none">
+                <img src="images/pop2.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="custom_navigation05">
+          <div class="prev_wrap_pop snav_wrap">
+            <i class="fa-solid fa-chevron-left sprev"></i>
+          </div>
+          <div class="next_wrap_pop snav_wrap">
+            <i class="fa-solid fa-chevron-right snext"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- footer -->
+  <footer class="page">
+    <div class="footermenu_wrap">
+        <a class="footer_menu" href="#none">개인정보처리방침</a>
+        <a class="footer_menu" href="#none">이메일무단수집거부</a>
+        <a class="footer_menu" href="#none">공동저작물 042-860-4765</a>
+        <a class="footer_menu" href="#none">사이트맵</a>
+        <a class="footer_menu" href="#none">오시는길</a>
+    </div>
+    <div class="company_wrap">
+      <div class="com_content">
+        <a class="com" href="#none">대전본원</a>
+        <a href="#none">34141 대전광역시 유성구 과학로 125 Tel.042-860-4114 Fax. 042-861-1759</a>
+      </div>
+      <div class="com_content">
+        <a class="com" href="#none">오창분원</a>
+        <a href="#none">28116 충청북도 청주시 청원구 오창읍 연구단지로 30 Tel. 043-240-6003 Fax. 042-240-6029</a>
+      </div>
+      <div class="com_content">
+        <a class="com" href="#none">전북분원</a>
+        <a href="#none">56212 전북특별자치도 정읍시 입신길 181 Tel. 063-570-5020 Fax. 063-570-5019</a>
+      </div>
+    </div>
+    <div class="symbol">
+      <a class="wa" href="#none">
+        <img src="images/wa.png" alt="">
+      </a>
+      <a class="logo" href="#none">
+        <img src="images/white_logo.png" alt="">
+      </a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="swiper.js"></script>
+  <script src="js.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

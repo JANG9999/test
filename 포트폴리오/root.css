@@ -1,0 +1,17 @@
+:root{
+  /* 폰트 스타일 */
+  --font : 'Pretendard';
+  /* color */
+  --main-color : #0b488d;
+  --point-color : #D84725;
+  --section1-color : #DEE7F7;
+  /* font-color */
+  --head-color : #111111;
+  --disc-color : #767676;
+  /* border-color */
+  --border-color : #d2d2d2;
+  /* font-size */
+  --title-font : 30px;
+  --subtitle-font : 20px;
+  --body-font : 16px;
+}
