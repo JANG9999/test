@@ -34,7 +34,7 @@
 
 | 섹션1 : 메인비주얼                                                                                                      |
 | :---------------------------------------------------------------------------------------------------------------------- |
-| ![메인비주얼](https://github.com/user-attachments/assets/d7107121-e60d-4407-8795-813ed25c7698)
+| ![메인비주얼] <img src='https://private-user-images.githubusercontent.com/54114909/443520017-bc6c5ea0-de77-445d-9c7d-dfa803dd403d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDcyMDQ0MDMsIm5iZiI6MTc0NzIwNDEwMywicGF0aCI6Ii81NDExNDkwOS80NDM1MjAwMTctYmM2YzVlYTAtZGU3Ny00NDVkLTljN2QtZGZhODAzZGQ0MDNkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTE0VDA2MjgyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRkYzYxODc0N2I5MTJlNDcxYzUwMjMwOTU4MmU2NGNkZjQzM2VmY2ZiZDQ3NmE5OWIwYzFkM2FjNjY5ZmVjYjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jgY96gPoKIoMnnZa6tlbQeDoF5lSv5VbfUWkGTXpQGM'>
 
 
 | 화려하고 시선을 이끄는 이미지들을 활용한 와이드샷 이미지를 배경슬라이드로 사용합니다. 텍스트 슬라이드 총 두 가지의 슬라이드가 각각 정확한 타이밍에 작동되고 있습니다.
